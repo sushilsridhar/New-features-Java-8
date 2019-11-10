@@ -26,5 +26,8 @@ public class MethodsWithin {
         Phone phone = new Iphone();
         phone.call();
         phone.message();
+
+        /* can't call static method with object variable */
+        // phone.connectToNetwork();
     }
 }
